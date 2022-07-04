@@ -1,0 +1,21 @@
+Conseils généraux pour écrire de petites applications Tkinter :
+
+Vous devez écrire un petit jeu Tkinter, avec un plateau par exemple. Voici quelques conseils très
+élémentaires et qui s’adressent à des débutants en Python.
+
+— Encapsuler toutes les données et les distances fixes dans des variables bien nommées, 
+autrement dit éviter les constantes magiques dans le code ; ces variables qui seront globales à votre
+programme sont en fait des constantes et seront écrites en capitales. A terme, limiter toutes
+ces variables globales et prétendues inamovibles et qui à l’usage ont besoin d’évoluer.
+
+— Découper votre code en fonctions simples et réutilisables et avec une interface adéquate
+
+— Créer une classe qui encapsule des données et des méthodes interdépendantes.
+
+— Séparer la partie vue de l’application et la partie calcul (ce point est essentiel dans de nombreuses situations)
+
+— Faire un croquis, de préférence sur une feuille quadrillée en indiquant les coordonnées
+
+— Ne pas abuser du multi-fenêtrage
+
+— Si l’interface est formée de nombreux widgets, répartir ces widgets selon diérents frames.
